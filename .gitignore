@@ -1,5 +1,8 @@
+
 # Created by https://www.toptal.com/developers/gitignore/api/matlab
 # Edit at https://www.toptal.com/developers/gitignore?templates=matlab
+
+temp
 
 ### MATLAB ###
 # Windows default autosave extension
@@ -9,7 +12,7 @@
 *.m~
 
 # Compiled MEX binaries (all platforms)
-*.mex*
+#*.mex*
 
 # Packaged app and toolbox files
 *.mlappinstall
@@ -35,3 +38,6 @@ codegen/
 octave-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/matlab
+00_temp/
+/build
+includePaths.mat
